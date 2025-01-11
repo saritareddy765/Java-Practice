@@ -1,0 +1,16 @@
+Object:
+       * It is an instance of a class.
+       * created by using new keyword.
+       * We can create multiple objects of the same class, and each will have its own state.
+       * objects are stored in heap memory.
+       * object can contain methods and variables.
+
+Syntax:
+       * ClassName objName = new ClassName();
+            --> objName should be created any number of classes.
+
+            -- ClassName: The name of the class.
+            -- objectName: The reference variable pointing to the object.
+            -- new ClassName(): Allocates memory and initializes the object.
+       * call the methods or variables within the class or another class.
+

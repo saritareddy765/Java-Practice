@@ -1,0 +1,43 @@
+Method:
+       * A method is a block of code which only runs when it is called.
+       * You can pass data, known as parameters, into a method.
+       * Methods are used to perform certain actions, and they are also known as functions.
+       * Why use methods? To reuse code: define the code once, and use it many times.
+
+Syntax:
+       * accessModifier staticOrNonStatic returnType methodName(parameters){
+       //Method body
+
+       }
+       accessModifier: public.private,protect,default
+       Return Type:
+          -->Return type is a data type that the method returns.
+          --> It may have a primitive data type, object, collection, void, etc.
+          --> If the method does not return anything, we use void keyword.
+       Parameter List:
+          --> It is the list of parameters separated by a comma and enclosed in the pair of parentheses.
+          --> It contains the data type and variable name.
+          --> If the method has no parameter, left the parentheses blank.
+       Method Body:
+          --> It is a part of the method declaration.
+          --> It contains all the actions to be performed.
+          --> It is enclosed within the pair of curly braces.
+Naming convection:
+        * Method name starts with lowerCase.
+        * Single-word method name: sum(), area()
+        * Multi-word method name: areaOfCircle(), stringComparision()
+
+Types of Methods:
+        * Pre-defined Methods
+            --> predefined methods are the method that is already defined in the Java class libraries is known as predefined methods.
+            --> It is also known as the standard library method or built-in method.
+            --> We can directly use these methods just by calling them in the program at any point.
+        * User-defined Methods
+            --> The method written by the user or programmer is known as a user-defined method.
+            --> These methods are modified according to the requirement.
+
+
+
+
+
+

@@ -1,0 +1,22 @@
+Switch case:
+            * switch Statement Allows multiple conditions to be checked
+                   in a simpler way than if-else.
+
+            * Syntax:
+                      switch(expression){
+                        case value1:
+                            // statements (match the value executed)
+                            break;
+                        case value2:
+                             // statements (match the value executed)
+                             break;
+                        default:
+                            // statements (no match executed)
+                      }
+break:
+            --> When Java reaches a break keyword, it breaks out of the switch block.
+            --> This will stop the execution of more code and case testing inside the block
+            --> When a match is found, and the job is done, it's time for a break.
+                     There is no need for more testing.
+            --> A break can save a lot of execution time because it "ignores"
+                   the execution of all the rest of the code in the switch block.

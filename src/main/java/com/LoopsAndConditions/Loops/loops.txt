@@ -1,0 +1,57 @@
+Loop:
+     * Loops are used to execute a block of code repeatedly.
+
+Types:
+     * for Loop
+     * enhanced Loop (for-each)
+     * while Loop
+     * do-while Loop
+
+for Loop:
+         * for Loop Executes a block of code a specific number of times.
+         * has nested for loop.
+         * Syntax:
+                  for (initialization; condition; increment/decrement) {
+                      // Code to execute
+                  }
+nested for Loop:
+         * If we have a for loop inside the another loop, it is known as nested for loop.
+         * The inner loop executes completely whenever outer loop executes.
+         * Syntax:
+                  for (initialization; termination; increment) {
+                      // Outer loop block
+                      for (initialization; termination; increment) {
+                          // Inner loop block
+                      }
+                  }
+         * The structure allows us to perform complex iterations by running a for loop
+                  for each iteration of the outer for loop.
+         * Nested for loops are particularly useful when working with multi-dimensional
+             data structures like arrays or when we need to perform operations that
+               require multiple levels of looping, such as generating a matrix or table.
+
+for-each Loop:
+         * Enhanced for Loop (for-each) Used to iterate over arrays or collections.
+         * Syntax:
+                  for (type variable : collection) {
+                      // Code to execute
+                  }
+while Loop:
+         * while Loop Executes as long as the condition is true.
+         * Syntax:
+                  while (condition) {
+                      // Code to execute
+                  }
+Infinite While Loop:
+            *
+            * Syntax:
+                     while(true){
+                     //code to be executed
+                     }
+do-while Loop:
+         *  Loop Executes the block of code at least once, then checks the condition.
+         * Syntax:
+                  do {
+                      // Code to execute
+                  } while (condition);
+

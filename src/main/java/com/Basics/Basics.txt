@@ -1,0 +1,27 @@
+Package:
+        * It is a collection of classes,interfaces and sub-packages.
+        * It helps organize our code,avoid name conflicts and control access.
+Creation of package:
+        * src Right click -> New -> package.
+Types:
+        * Built-in Packages:
+                               -- Provided by Java i.e., java.io, java.lang, java.util
+                               -- import package.name.Class; for (import the single class)
+                               -- import package.*;  (import whole package)
+        * User-defined Packages:
+                               -- To create our own package,Java uses a file system directory to store them.
+                               -- Just like folders in our computer.
+                               -- To create a package, use the package keyword.
+Naming Convection:
+        * Package name should be in small case.
+        * If there are multiple words use . to separate multiple words.
+        * com.ft
+
+Class:
+        * It is a bluePrint in which the entire information of the class will be present.
+        * It is associated with variables and methods.
+Creation of Class:
+        * Right click on package-> New -> Java Class.
+Naming Convection:
+        * Class should be starts with Capital letter.
+        * If there are multiple words also starts With capital letter.

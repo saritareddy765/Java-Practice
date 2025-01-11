@@ -1,0 +1,18 @@
+Comment:
+         * It is a statement that will not be executed by the compiler and interpreter.
+         * It can be used to provide information or explanation about the variable,method,class or any statement.
+Types:
+         * Single Line Comments.
+         * Multi Line Comments.
+         * Documentation Comments.
+    --Single Line Comment:
+             -> Single-line comments start with two forward slashes (//).
+             -> Any text between // and the end of the line is ignored by Java (will not be executed).
+    --Multi Line Comments:
+             -> Multi-line comments start with /* and ends with */.
+             -> Any text between /* and */ will be ignored by Java.
+    --Documentation Comment:
+             -> It is used generally when writing code for a project/software package.
+             -> It helps to generate a documentation page for reference.
+             -> Which can be used for getting information about methods present, its parameters, etc.
+

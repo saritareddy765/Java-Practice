@@ -1,0 +1,32 @@
+Variable:
+         * Variables are containers for storing data values while the Java program is executed.
+         * All Java variables must be identified with unique names.
+
+Types:
+         * Global Variables(Static and Non-Static variables)
+         * Local Variables(Local variables and Parameters)
+
+         * Instance Variables(Non-Static Fields)
+             --> A variable declared inside the class but outside the body of the method,is called an instance variable.
+             --> It is not declared as static.
+             --> It is called an instance variable because its value is instance-specific and is not shared among instances.
+
+         * Class Variables(Static Fields)
+             --> A variable that is declared as static is called a static variable.
+             --> It cannot be local.We can create a single copy of the static variable and share it among all the instances of the class.
+             --> Memory allocation for static variables happens only once when the class is loaded in the memory.
+
+         * Local Variables
+             --> A variable declared inside the body of the method is called local variable.
+             --> We can use this variable only within that method.
+             --> And the other methods in the class aren't even aware that the variable exists.
+
+Naming convection:
+         * Names can contain letters, digits, underscores, and dollar signs
+         * Names must begin with a letter
+         * Names should start with a lowercase letter, and cannot contain whitespace
+         * Names can also begin with $ and _
+         * Names are case-sensitive ("myVar" and "myvar" are different variables)
+         * Reserved words (like Java keywords, such as int or boolean) cannot be used as names
+Syntax:
+         * data-type var-name = var-value;

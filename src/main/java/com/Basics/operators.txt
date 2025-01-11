@@ -1,0 +1,44 @@
+Operators:
+          * It is a symbol that perform operations on variables and values.
+Types:
+          * Arithmetic Operators.
+          * Relational(Comparison) Operators.
+          * Logical Operators.
+          * Bitwise Operators.
+          * Assignment Operators.
+          * Unary Operators.
+          * Ternary Operators.
+Arithmetic Operators:
+          --> Used for basic mathematical operations.
+          --> Types: +,-,*,/,%.(Addition, Subtraction, Multiplication, Division, Modulus)
+
+Relational Operators:
+          --> Used to compare two values.
+          --> Types: ==, !=, >, <, >=, <=.
+          --> EqualTo, NotEqual, GreaterThan, LessThan, GreaterThanOrEqualTo, LessThanOrEqualTo.
+
+Logical Operators:
+          --> Used for logical operations, typically in decision-making.
+          --> Types: &&, ||, !.
+          --> Logical AND, Logical OR, Logical Not.
+
+Bitwise Operators:
+          --> Used for bit-level operations.
+          --> Types: &, ^, ~, <<, >>, >>>.
+          --> Bitwise(AND, OR, Compliment, LeftShift, RightShift, UnsignedRightShift).
+
+Assignment Operators:
+          --> Used to assign values to variables.
+          --> Types: =, +=, -=, *=, /=, %=.
+          --> Assigns a Value, Adds and assigns, Subtract and assigns, Multiplies and assigns, Divide and assigns, Modulus and assigns.
+
+Unary Operators:
+          --> Used with a single operand.
+          --> Types: +, -, ++, --, !.
+          --> Unary plus, Unary minus, Increment, Decrement, Logical Not.
+          --> ++a(Pre-Increment), a--(Post-Decrement).
+
+Ternary Operators:
+          --> A shorthand for if-else.
+          --> Condition ? value_if_true : value_if_false
+          --> Ex: a > b ? a : b

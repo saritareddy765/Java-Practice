@@ -1,0 +1,19 @@
+PrintStatements:
+               * The method is used for print/output the text/values in Java.
+               * Text/value must be wrapped inside double quotations marks "".
+Types:
+               * print() method:
+                   --> used to prints the text in same line.
+               * println() method:
+                   --> used to prints the text in next line.
+               * printf() method:
+                   --> used for formatting.
+                   --> %b = boolean.
+                   --> %c = character.
+                   --> %d = integer.
+                   --> %e = scientific notation.
+                   --> %f = floating point.
+                   --> %s = string.
+                   --> %tc = complete date and time.
+                   --> %n = a new line on this platform.
+                   --> %% = the character %

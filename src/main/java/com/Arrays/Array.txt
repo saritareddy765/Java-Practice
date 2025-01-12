@@ -1,0 +1,69 @@
+Array:
+     * An array is a collection of elements
+         of the same data type stored in a contiguous memory location.
+     * It is a fixed-size data structure that can hold
+           multiple values in a single variable.
+     * Fixed Size:
+             The size of an array is determined when it is created and cannot be changed.
+     * Indexed:
+             Array elements are accessed using their index, starting from 0.
+     * Homogeneous:
+             All elements in an array must be of the same data type.
+     * Static Memory Allocation:
+             The memory for an array is allocated at compile-time.
+
+Advantages:
+     * Code Optimization: It makes the code optimized, we can retrieve or sort the data efficiently.
+     * Random access: We can get any data located at an index position.
+Disadvantages:
+     * Size Limit: Arrays have a fixed size and do not grow dynamically at runtime.
+
+Declaration:
+            * dataType arrayName[];
+                       or
+            * dataType[] arrayName;
+
+Initialization:
+            * arrayName[] = new dataType[size];
+
+Declaration and Initialization:
+                       * dataType[] arrayName = new dataType[size];(also object creation).
+
+Types:
+            * Single-Dimensional Array.
+            * Multi-Dimensional Array.
+                --> Two Dimensional Array.
+                --> Jagged Array.
+
+Single Dimensional Array:
+            * A simple list of elements.
+            * one dimensional(only x-axis).
+            * Syntax: dataType[] arrayName = {values};
+            * Ex:          int[] a = {1,2,3,4,5}.
+
+Multi Dimensional Array:
+            * Arrays with more than one dimension.
+            * To create a two-dimensional array, add each array
+                    within its own set of curly braces:
+            * Number of rows = number of columns.
+            * Syntax: dataType[][] arrayName = {{values},{values},{values}};
+            *Ex:       int[][] a = {{1,2,3},{4,5,6},{7,8,9}};
+                       int[][] b = new int[3][2]; 3 rows,2 columns.
+                       int[][] c ={
+                                   {1,2},
+                                   {3,4},
+                                   {5,6}
+                       };
+
+Jagged Array:
+            * Jagged arrays are 2D arrays where
+                  each row can have a different number of columns.
+            * Syntax:  dataType[][]  arrayName = {{val}{}};
+                       dataType[][] arrayName = new int[][];
+                       int[][] a =new int[3][];
+                        a[0] = new int[3];
+                        a[1] = new int[5];
+                        a[2] = new int[8];
+perform:
+            * Loops: for(),for-each.
+            *

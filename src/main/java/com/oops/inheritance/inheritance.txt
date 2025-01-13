@@ -1,0 +1,93 @@
+Inheritance:
+            * It is an important part og OOPS concept(Object Oriented Programming System).
+            * It is a mechanism in which one class acquire all the properties and behaviours of
+                 another class with the specific relationship.
+            * Inheritance promotes code reusability and maintainability.
+            * Java supports single, multilevel,and hierarchical inheritance
+                but does not allow multiple inheritance with classes.
+Types:
+      * Single Inheritance.
+      * Multilevel Inheritance.
+      * Hierarchical Inheritance.
+      * Multiple Inheritance
+
+uses:
+      * Code Reusability: Common functionalities can be reused in derived classes.
+      * Method Overriding: Allows a subclass to provide a specific implementation
+                  of a method already defined in its superclass.
+      * Super Keyword: Used to refer to the parent class's members.
+
+Single Inheritance:
+             * Single inheritance is a type of inheritance in Java where a child class
+                inherits properties and behaviors (fields and methods) from a single parent class.
+             * It establishes a parent-child relationship.
+             * Syntax:
+                     class Parent{
+                     // parent class members
+                     }
+                     class Child extends Parent{
+                     // Child class members
+                     }
+             * Parent Class: A blueprint or template (e.g., Vehicle).
+             * Child Class: A specific implementation (e.g., Car or Bike)
+                  that inherits features of Vehicle and adds its own unique features.
+
+MultiLevel Inheritance:
+             * Multilevel inheritance in Java,where a class inherits from another class,
+                     which in turn inherits from another class.
+             * It forms a chain of inheritance, establishing a hierarchical relationship.
+             * Syntax: class GrandParent{
+                        // GrandParent class members
+                       }
+                       class Parent extends GrandParent{
+                         // Parent class members
+                       }
+                       class Child extends Parents{
+                         // Child class inheritance
+                       }
+             * Grandparent: A broad entity (e.g., Animal).
+             * Parent: A more specific entity (e.g., Mammal).
+             * Child: The most specific entity (e.g., Dog).
+             * Inheritance Chain: The Child class inherits from the Parent class,
+                                    and the Parent class inherits from the Grandparent class.
+             * Code Reusability: Methods and variables from all ancestor
+                                 classes can be reused in the child class.
+             *  Method Overriding: A child or parent class can override methods
+                                   from its immediate parent class.
+
+Hierarchical inheritance:
+             * Hierarchical inheritance is a type of inheritance where multiple child classes
+                           inherit from a single parent class.
+             * This establishes a parent-child relationship between
+                one parent and multiple child classes.
+             * Syntax: class Parent{
+                         // Parent class members
+                       }
+                       class Child1 extends Parent{
+                          // Child1 class members
+                       }
+                       class Child2 extends Parent{
+                           // Child2 class members
+                       }
+             * Parent Class: Vehicle (common properties like engine, wheels, etc.).
+             * Child Classes: Car, Bike, Truck (specific properties unique to each type of vehicle).
+             * Single Parent Class: The parent class acts as a base for multiple child classes.
+             * Code Reusability: The child classes reuse methods and fields of the parent class.
+             * Independent Child Classes: Each child class operates independently and
+                                           has its own additional members.
+
+
+Super Keyword:
+             * The super keyword is used to:
+                   --> Call the parent class's constructor.
+                   --> Access the parent class's methods and variables.
+             * Use the super keyword to access parent class members.
+             * super() can be used to invoke immediate parent class constructor.
+
+Final Keyword:
+             *
+
+Overriding in Inheritance:
+             * Method overriding is a feature in inheritance where a subclass provides a specific
+                        implementation of a method defined in its superclass.
+             * Overriding allows specific implementations in child classes.

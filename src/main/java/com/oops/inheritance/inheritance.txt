@@ -34,27 +34,26 @@ Single Inheritance:
 
 MultiLevel Inheritance:
              * Multilevel inheritance in Java,where a class inherits from another class,
-                     which in turn inherits from another class.
-             * It forms a chain of inheritance, establishing a hierarchical relationship.
-             * Syntax: class GrandParent{
-                        // GrandParent class members
-                       }
-                       class Parent extends GrandParent{
-                         // Parent class members
-                       }
-                       class Child extends Parents{
-                         // Child class inheritance
-                       }
-             * Grandparent: A broad entity (e.g., Animal).
-             * Parent: A more specific entity (e.g., Mammal).
-             * Child: The most specific entity (e.g., Dog).
-             * Inheritance Chain: The Child class inherits from the Parent class,
-                                    and the Parent class inherits from the Grandparent class.
-             * Code Reusability: Methods and variables from all ancestor
-                                 classes can be reused in the child class.
-             *  Method Overriding: A child or parent class can override methods
-                                   from its immediate parent class.
-
+                                  which in turn inherits from another class.
+                          * It forms a chain of inheritance, establishing a hierarchical relationship.
+                          * Syntax: class GrandParent{
+                                     // GrandParent class members
+                                    }
+                                    class Parent extends GrandParent{
+                                      // Parent class members
+                                    }
+                                    class Child extends Parents{
+                                      // Child class inheritance
+                                    }
+                          * Grandparent: A broad entity (e.g., Animal).
+                          * Parent: A more specific entity (e.g., Mammal).
+                          * Child: The most specific entity (e.g., Dog).
+                          * Inheritance Chain: The Child class inherits from the Parent class,
+                                                 and the Parent class inherits from the Grandparent class.
+                          * Code Reusability: Methods and variables from all ancestor
+                                              classes can be reused in the child class.
+                          *  Method Overriding: A child or parent class can override methods
+                                                from its immediate parent class.
 Hierarchical inheritance:
              * Hierarchical inheritance is a type of inheritance where multiple child classes
                            inherit from a single parent class.
@@ -76,6 +75,33 @@ Hierarchical inheritance:
              * Independent Child Classes: Each child class operates independently and
                                            has its own additional members.
 
+Multiple Inheritance:
+             * Multiple Inheritance is not possible using classes.
+             * Same methods in both the parent classes then in child class ambiguity problem.
+             * Different methods in the parent classes even then object class is the super class(Parent1 and Parent2).
+             * It is possible using Interface.
+             * Syntax:
+                      interface Interface1{
+                      // void method1();
+                      }
+                      interface Interface2{
+                      // void method2();
+                      }
+                      class ImplementingClass implements Interface1, Interface2{
+                      @override
+                        public void method1(){
+                        System.out.println("Method from Interface1");
+                        }
+                      @override
+                        public class void method2(){
+                        System.out.println("Method from Interface2");
+                        }
+                      }
+KeyPoints:
+             * Class Inheritance: A class can inherit only from a single class (no multiple inheritance).
+             * Interface Inheritance: A class can implement multiple interfaces, allowing multiple inheritance in behavior.
+             * Default Methods in Interfaces: If two interfaces have default methods with the same name,
+                       the implementing class must override the method to resolve ambiguity.
 
 Super Keyword:
              * The super keyword is used to:

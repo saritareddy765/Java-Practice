@@ -35,7 +35,6 @@ Single Inheritance:
 MultiLevel Inheritance:
              * Multilevel inheritance in Java,where a class inherits from another class,
                                   which in turn inherits from another class.
-<<<<<<< HEAD
              * It forms a chain of inheritance, establishing a hierarchical relationship.
              * Syntax: class GrandParent{
                            // GrandParent class members
@@ -50,8 +49,7 @@ MultiLevel Inheritance:
                                 and the Parent class inherits from the Grandparent class.
                          * Code Reusability: Methods and variables from all ancestor classes
                                       can be reused in the child class.
-                         * Method Overriding: A child or parent class can override methods
-=======
+                         * Method Overriding: A child or parent class can override methods.
                           * It forms a chain of inheritance, establishing a hierarchical relationship.
                           * Syntax: class GrandParent{
                                      // GrandParent class members
@@ -70,7 +68,6 @@ MultiLevel Inheritance:
                           * Code Reusability: Methods and variables from all ancestor
                                               classes can be reused in the child class.
                           *  Method Overriding: A child or parent class can override methods
->>>>>>> f2cd7b6f9261436f8f6e39d86a282c35ae3e93eb
                                                 from its immediate parent class.
 Hierarchical inheritance:
              * Hierarchical inheritance is a type of inheritance where multiple child classes

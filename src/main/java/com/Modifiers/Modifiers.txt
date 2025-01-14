@@ -1,0 +1,46 @@
+Modifiers:
+               * Modifiers in Java define the behavior, accessibility, or scope of classes,
+                         methods, fields, and other program elements.
+               * They are categorized into Access Modifiers and Non-Access Modifiers.
+
+Access Modifiers:
+               * Access modifiers define the visibility
+                      or accessibility of a class, method, or variable.
+Types of Access Modifiers:
+               * Public
+               * Private
+               * Protected
+               * Default
+
+Public:
+               * Accessible everywhere in all packages and classes in Java project.
+               * Used when the member or class needs to be accessed by any other class.
+
+Private:
+               * Accessible only within the  same class (variables and methods).
+               * Ensures the highest level of encapsulation.
+               * It doesn't work outside the class.
+
+Protected:
+               * Accessible within the same package and subclasses.
+               * and also in different package,using inheritance by the child class.
+
+Default:
+               * Accessible only within the same package,without specifying
+                              the access modifier.
+               * If no access modifier is specified, it is the default.
+               * it doesn't work in the outside package.
+
+Short Notes:
+
+Within the Same Class:
+               * All members (public, protected, default, private) are accessible.
+Within the Same Package (Non-Subclass):
+               * public, protected, and default are accessible.
+               * private is not accessible.
+In a Subclass (Different Package):
+               * public and protected are accessible (inherited).
+               * default and private are not accessible.
+In a Non-Subclass (Different Package):
+               * Only public is accessible.
+               * protected, default, and private are not accessible.

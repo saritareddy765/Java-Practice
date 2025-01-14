@@ -35,6 +35,7 @@ Single Inheritance:
 MultiLevel Inheritance:
              * Multilevel inheritance in Java,where a class inherits from another class,
                                   which in turn inherits from another class.
+<<<<<<< HEAD
              * It forms a chain of inheritance, establishing a hierarchical relationship.
              * Syntax: class GrandParent{
                            // GrandParent class members
@@ -50,6 +51,26 @@ MultiLevel Inheritance:
                          * Code Reusability: Methods and variables from all ancestor classes
                                       can be reused in the child class.
                          * Method Overriding: A child or parent class can override methods
+=======
+                          * It forms a chain of inheritance, establishing a hierarchical relationship.
+                          * Syntax: class GrandParent{
+                                     // GrandParent class members
+                                    }
+                                    class Parent extends GrandParent{
+                                      // Parent class members
+                                    }
+                                    class Child extends Parents{
+                                      // Child class inheritance
+                                    }
+                          * Grandparent: A broad entity (e.g., Animal).
+                          * Parent: A more specific entity (e.g., Mammal).
+                          * Child: The most specific entity (e.g., Dog).
+                          * Inheritance Chain: The Child class inherits from the Parent class,
+                                                 and the Parent class inherits from the Grandparent class.
+                          * Code Reusability: Methods and variables from all ancestor
+                                              classes can be reused in the child class.
+                          *  Method Overriding: A child or parent class can override methods
+>>>>>>> f2cd7b6f9261436f8f6e39d86a282c35ae3e93eb
                                                 from its immediate parent class.
 Hierarchical inheritance:
              * Hierarchical inheritance is a type of inheritance where multiple child classes

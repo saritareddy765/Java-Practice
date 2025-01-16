@@ -1,0 +1,14 @@
+Main Method:
+            * public static void main(String[] args)
+            * Here
+                 public - access modifier, which allows to access the class from anywhere.
+                        - It means that the method will be visible from classes in other packages.
+                * static - It is a keyword,it will belongs to the class memory.
+                         - which helps main method to run without creating any object's
+                * void - It is a keyword,when we don't want to return anything from a method/function.
+                * main - default signature defined in JVM.
+                       - Whenever trying to run Java file,first it looks
+                            for main function without main it will not run.
+                * main() - main method is the entry point of a Java program for the JVM.
+                * String[] args - It is used to command line argument of string type array.
+                                - size is decided in the run time.

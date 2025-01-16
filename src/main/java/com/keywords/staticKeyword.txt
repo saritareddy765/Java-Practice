@@ -1,0 +1,31 @@
+StaticKeyword:
+              * It can be applied to variables and methods.
+              * static variables and methods placed in the class memory.
+              * static variable values are hold the memory till the execution completed.
+              * static variables and methods not placed in the object memory.
+              * non-static variables and methods are placed in the object memory(multiple objects).
+              * call by using the className. variable
+              * used only for common properties.
+              * Types:
+                       1. static variables
+                            -- we have to specify the static keyword.
+                            -- static variables are also referred as class variable.
+                            -- static variables are common to all the instances/objects of the class.
+                       2. static methods
+                            -- we have to specify the static keyword.
+                            -- static methods are also referred as class methods.
+                            -- A static method belongs to the class rather than any instance.
+                            -- It can be called without creating an object of the class.
+                            -- Rules:
+                                    1. Can only access other static members (variables or methods).
+                                    2. Cannot use this or super keywords.
+                       3. non-static variables
+                            -- not specify the static keyword.
+                       4. non-static methods
+                            -- not specify the static keyword.
+              * Reduces memory usage by sharing common data across instances.
+              * Overuse can make the program less object-oriented.
+              * static keyword also used in Blocks and Nested class.
+              * object creation is not required for static variables and methods.
+              * used in Math.random() (random is also static).
+              *

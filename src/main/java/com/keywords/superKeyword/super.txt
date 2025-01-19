@@ -1,0 +1,18 @@
+super keyword:
+           * The super keyword in Java is a reference variable that refers
+                to the immediate parent class of the current object.
+           * It is primarily used for accessing members (fields or methods)
+                and calling constructors of the parent class.
+Uses:
+           * Accessing Parent Class Variables.
+              -- The super keyword can be used to access a parent class variable when
+                   it is hidden by a variable of the same name in the child class.
+           * Calling Parent Class Methods.
+              -- The super keyword can be used to access a parent class variable
+                    when it is hidden by a variable of the same name in the child class.
+           * Calling Parent Class Constructors.
+              -- The super() keyword is used to invoke the constructor of the parent class.
+              -- It must be the first statement in the child class constructor.
+           * Use super to call overridden methods or access hidden variables in the parent class.
+           * The super keyword cannot be used in static methods or blocks because
+              it refers to an instance, and static context does not involve instances.

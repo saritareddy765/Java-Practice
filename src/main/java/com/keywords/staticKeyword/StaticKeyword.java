@@ -1,4 +1,4 @@
-package com.keywords;
+package com.keywords.staticKeyword;
 
 public class StaticKeyword {
     //variables

@@ -1,4 +1,4 @@
-package com.keywords;
+package com.keywords.thisKeyword;
 
 public class ThisConstructor {
     ThisConstructor(){

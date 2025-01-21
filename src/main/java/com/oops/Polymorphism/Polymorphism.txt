@@ -1,0 +1,10 @@
+Polymorphism:
+             * polymorphism means many forms.
+             * It means ability to take more than one form.
+
+Types:
+             * Compile-Time polymorphism(Method Overloading).
+             * Run-Time polymorphism(Method Overriding).
+             * Polymorphism can also be achieved through interfaces.
+             * Common methods can be reused with different implementations.
+             *

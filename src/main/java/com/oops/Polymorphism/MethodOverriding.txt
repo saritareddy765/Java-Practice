@@ -1,0 +1,43 @@
+Method overriding:
+                * It occurs when a subclass provides a specific implementation
+                     for a method that is already defined in its parent class.
+                * It will be applicable only incase of inheritance.
+                * Static methods cannot be overridden.
+                * The method in the child class must have the same name,
+                     return type, and parameters as the method in the parent class.
+                * The method in the child class must have an equal or more permissive access modifier than the parent method
+                   (e.g., protected in the parent can be overridden with protected or public in the child).
+                * Use the @Override annotation to ensure you're correctly overriding a method.
+                     This will cause a compile-time error if the method is not correctly overridden.
+                * Syntax:
+                          class ParentClass{
+                             returnType methodName(parameters){
+                               // parent method implementation
+                             }
+                          }
+                          class ChildClass extends ParentClass{
+                          //if we are specifying the override annotation,then we should mandatory
+                                    override the parent method in the child class.
+                              @Override
+                                returnType methodName(parameters){
+                                 // child method implementation
+                              }
+                          }
+
+Method overloading vs Method overriding:
+
+method overloading:
+                  * It is compile-time polymorphism.
+                  * we can do with and without inheritance,(Single and Multiple inheritance).
+                  * Same method name with different parameters.
+                  * Happens within same class.
+                  * Accesss modifier has no restrictions.
+                  * Static methods can be overloaded.
+
+method overriding:
+                  * It is run-time polymorphism.
+                  * It is possible only with inheritance(Two classes or more).
+                  * Same method name and parameters list.
+                  * Happens across parent and child classes.
+                  * In access modifier,child's access must match or be boarder.
+                  * Static methods cannot be overriden.

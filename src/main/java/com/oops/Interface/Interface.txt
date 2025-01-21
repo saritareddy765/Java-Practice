@@ -1,0 +1,48 @@
+Interface:
+          *  1. It is 100% Abstraction.
+             2. An interface in Java is a blueprint of a class
+                   that contains abstract methods (by default) and constants.
+             3. It contains only final and static variables.
+                   -- final means it is constant.
+                   -- static variable means common in the interface.
+                   -- final static means constant and belongs to the interface and no
+                         object is required to create and use these variables.
+             4. Starting from Java 8, interfaces can have:
+                   -- Default methods (with body).
+                   -- Static methods (with body and belong to the interface).
+             5. Starting from Java 9, interfaces can have private methods.
+             6. Methods in the interface are public by default (No need to specify explicitly).
+             7. Interface supports the functionality of multiple inheritance
+                    -- Multiple interfaces (Parents) -- implements -- One Child class
+             8. Interface we need to specify the interface keyword.
+             9. A class extends keyword  another class.
+                    -- An interface extends keyword another interface.
+                    -- But in Class implements keyword for interface.
+             10. We can create Object reference for an interface,
+                  but we cannot create objects instantiate the Interface
+                          Ex: A. TestClass obj = new TestClass();
+                                     TestClass obj --- obj reference is place stack memory.
+                                     new TestClass(); --- object place in heap memory.
+                              B. TestInterface interface1 = new TestInterface();
+                                     new TestInterface(); --- not possible in java
+                                           we cannot create objects for Interfaces.
+                              C. TestInterface interface2 = new ChildClass();
+                                    Interface reference to call the Child class object
+             11. Syntax:
+                          interface InterfaceName {
+                            void method1(); // Abstract method
+                              default void method2() {
+                                  // Default method with body
+                              }
+                                static void method3() {
+                                   // Static method with body
+                                }
+                          }
+
+Uses of interfaces:
+                *  To Achieve Multiple Inheritance.
+                      -- Java does not support multiple inheritance with classes to avoid ambiguity (the diamond problem).
+                      -- Interfaces allow a class to implement multiple interfaces, enabling multiple inheritance behavior.
+                * To Achieve Total Abstraction.
+                      -- Interfaces define only method declarations (abstract methods) and constants.
+                      -- The implementing class provides the method implementation, hiding the internal details from the user.

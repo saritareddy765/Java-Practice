@@ -1,0 +1,18 @@
+Abstraction:
+           * It is a process of hiding implementation details
+              and showing only the functionality to the user.
+           * In Java,abstraction is achieved through abstract classes and interfaces.
+           * Using Abstract class:
+                      1. It is partial abstraction.
+                      2. Abstract Class: -- A class that is declared with the abstract keyword.
+                                         --  It can contain both abstract methods
+                                             (without a body) and concrete methods (with a body).
+                                         -- Abstract Method: A method which contains method signature
+                                                without body (No implementation written).
+                      3. Syntax:
+                                abstract class ClassName {
+                                    abstract void methodName(); // Abstract method (no body)
+                                    void concreteMethod() {
+                                        // Concrete method (with body)
+                                    }
+                                }

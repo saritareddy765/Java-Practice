@@ -1,0 +1,29 @@
+Abstract vs Interface
+     Abstract class:
+         * It can have abstract and non-abstract methods.
+         * It doesn't supports multiple inheritance.
+         * It can provide implementation of Interface.
+         * The abstract keyword is used to declare abstract class.
+         * It can extend another java class and implement multiple java Interfaces.
+         * It can be extended using keyword "extends".
+         * It can have class members like private, protected, etc., .
+         * Example:
+                  public abstract class Test{
+                    public abstract void display();
+                  }
+
+
+     Interface:
+         * It can have only abstract methods.
+                Since Java 8, it can have default and static methods also.
+         * It supports multiple inheritance.
+         * It has only static and final variable.
+         * It can't provide the implementation of abstract class.
+         * The Interface keyword is used to declare interface.
+         * An interface can extend another java interface only.
+         * It can be implemented using keyword "implements".
+         * Members of java interface are public by default.
+         * Example:
+                  public interface Test{
+                      void display();
+                  }

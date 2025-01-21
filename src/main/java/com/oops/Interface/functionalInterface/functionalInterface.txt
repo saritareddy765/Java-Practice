@@ -1,0 +1,5 @@
+FunctionalInterface:
+        * It is introduced in Java 8 for functional programming.
+        * We can have any number of default and static methods.
+        * using @FunctionalInterface Annotation.
+        * It is also called as Single Abstract method Interface.
